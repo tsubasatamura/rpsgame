@@ -6,7 +6,7 @@ public class Hand implements Serializable{
 	private String cpuhandstr;
 	private String[] HAND={"グー","チョキ","パー"};//手を簡単に決めるため設定
 	private String result;
-	private final String[] RESULT={"あなたの勝ちです。","あなたの負けです。","あいこです。"};
+	private final String[] RESULT={"あなたの勝ちです","あなたの負けです","あいこです"};
 	//resultを簡単に決めるため設定
 	private int standing;
 	private final int[][] STANDING={{2,0,1},//勝敗表を3×3の2次元配列で表現

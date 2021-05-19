@@ -47,9 +47,9 @@ body{font-size:4.5vw;}
 <h1>結果</h1>
 <p>あなたの手は<jsp:getProperty name="result" property="yourhandstr"/></p>
 <p>コンピュータの手は<jsp:getProperty name="result" property="cpuhandstr"/></p>
-<%if(result.getResult()=="あなたの勝ちです。"){ %>
+<%if(result.getResult()=="あなたの勝ちです"){ %>
 <p class="red"><font color="red"><jsp:getProperty name="result" property="result"/></font></p>
-<%}else if(result.getResult()=="あなたの負けです。"){ %>
+<%}else if(result.getResult()=="あなたの負けです"){ %>
 <p><font color="blue"><jsp:getProperty name="result" property="result"/></font></p>
 <% }else{ %>
 <p><jsp:getProperty name="result" property="result"/></p>
